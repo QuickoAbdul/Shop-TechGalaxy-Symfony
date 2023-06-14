@@ -22,19 +22,28 @@ class RegisterType extends AbstractType
         $builder
             ->add('lastname', TextType::class, [
                 'label' => 'Votre Prénom',
-                'constraints' => new Length(2,30),
+                'constraints' => new Length([
+                    'min' => 2,
+                    'max' => 30
+                ]),
                 'attr' => [
                     'placeholder' => 'Merci de saisir votre prénom']
             ])
             ->add('FirstName', TextType::class, [
                 'label' => 'Votre Nom',
-                'constraints' => new Length(2,30),
+                'constraints' => new Length([
+                    'min' => 2,
+                    'max' => 30
+                ]),
                 'attr' => [
                     'placeholder' => 'Merci de saisir votre nom']
             ])
             ->add('email', EmailType::class, [
                 'label' => 'Votre Email',
-                'constraints' => new Length(2,30),
+                'constraints' => new Length([
+                    'min' => 2,
+                    'max' => 60
+                ]),
                 'attr' => [
                     'placeholder' => 'Merci de saisir votre email']
             ])
