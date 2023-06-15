@@ -35,3 +35,8 @@ bode {
 .product-container{
     margin-bottom: 150px;
 }
+
+.cart-icon{
+    height: 20px;
+    padding-left: 20px;
+}
