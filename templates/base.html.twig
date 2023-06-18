@@ -33,7 +33,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="{{ path('app_home') }}">Carousel</a>
+        <a class="navbar-brand" href="{{ path('app_home') }}">Tech Galaxy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,15 +43,15 @@
                     <a class="nav-link" href="{{ path('app_product') }}">Nos Produits</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Qui sommes nous</a>
+                    <a class="nav-link" href="{{ path('app_about') }}">Qui sommes nous</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+                <!--<li class="nav-item active">
+                    <a class="nav-link" href="">Contact</a>
+                </li>-->
             </ul>
             <div class="navbar-item-custom">
                 {% if app.user  %}
-                <a href="{{ path('app_account') }}">Mon compte <small>({{ app.user.firstname }})</small></a> ! <a href="{{ path('app_logout') }}">Deconexion</a>
+                <a href="{{ path('app_account') }}">Mon compte <small>({{ app.user.firstname }})</small></a> ! <a href="{{ path('app_logout') }}">Deconnexion</a>
                 {% else %}
                 <a href="{{ path('app_login') }}">Connexion</a> ! <a href="{{ path('app_register') }}">Inscription</a>
                 {% endif %}
@@ -74,27 +74,27 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+               <a href="{{ path('app_product') }}"> <img src="{{ asset('assets/img/banner1.jpg') }}" alt="fond1"> </a>
                 <div class="container">
                     <div class="carousel-caption text-left">
-                        <h1>Example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                        <!--<h1></h1>
+                        <p></p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>-->
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+               <a href="{{ path('app_product') }}"> <img src="{{ asset('assets/img/banner2.jpg') }}" alt="fond2"> </a>
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                        <h1>Découvrez notre nouvelle gamme.</h1>
+                        <p>Découvrez la nouvelle gamme de nos pc, montés par des professionnelles avec les derniers composants sur le marché</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Découvrir</a></p>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+               <a href="{{ path('app_product') }}"> <img src="{{ asset('assets/img/banner1.jpg') }}" alt="fond3"> </a>
                 <div class="container">
                     <div class="carousel-caption text-right">
                         <h1>One more for good measure.</h1>
@@ -120,7 +120,7 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing" {% if block('carousel') is not defined  %}mt-5 {% endif %}>
+    <div class="container mt-5 marketing" {% if block('carousel') is not defined  %}mt-5 {% endif %}>
 
         <!-- Three columns of text below the carousel -->
         {% block content %}
