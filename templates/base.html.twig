@@ -11,6 +11,8 @@
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/laboutique.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-5.15.3" crossorigin="anonymous" />
+
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -97,8 +99,8 @@
                <a href="{{ path('app_product') }}"> <img src="{{ asset('assets/img/banner1.jpg') }}" alt="fond3"> </a>
                 <div class="container">
                     <div class="carousel-caption text-right">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <h1></h1>
+                        <p></p>
                         <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
                     </div>
                 </div>
@@ -134,10 +136,36 @@
 
     <!-- FOOTER -->
     <footer class="footer-custom">
-        <p>&copy; 2017-2020 Laboutique, Inc. &middot; 
-        <small>La boutique 100%</small>
-        <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>À propos de nous</h4>
+                <p>Nous sommes une boutique spécialisée dans la vente de composants de PC haut de gamme. Découvrez notre sélection de produits de qualité et profitez d'une expérience exceptionnelle.</p>
+            </div>
+            <div class="col-lg-4">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank" rel="nofollow"><i class="fab fa-facebook-f fa-2x black-icon mx-2"></i></a>
+                    <a href="#" target="_blank" rel="nofollow"><i class="fab fa-twitter fa-2x black-icon mx-2"></i></a>
+                    <a href="#" target="_blank" rel="nofollow"><i class="fab fa-instagram fa-2x black-icon mx-2"></i></a>
+                    <a href="#" target="_blank" rel="nofollow"><i class="fab fa-linkedin-in fa-2x black-icon mx-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <h4>Contactez-nous</h4>
+                <p>123 Rue Principale, Ville, Pays</p>
+                <p>Email: info@TechGalaxy.com</p>
+                <p>Téléphone: +3 03 45 45 68 78 9</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="text-center">&copy; 2023 Tech Galaxy, Inc. &middot; <small>La boutique 100%</small> &middot; <a href="#">Confidentialité</a> &middot; <a href="#">Conditions d'utilisation</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </main>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="{{ asset('assets/js/bootstrap.bundle.js') }}"></script>
