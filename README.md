@@ -4,10 +4,6 @@
 This site was developed in Symfony and BootStrap, it is an e-commerce site that allows you to place an order with a store named TechGalaxy, for the management of the BackEnd this was done with EasyAdmin
 
 ## Installation
-Php 7.3.11  
-Composer 2.5.5  
-Symfony 5.5.6  
-
 * Download Project
 * In the project you also find the database import there in your MySql
 * Modify the .env file according to the name of your database
@@ -16,5 +12,8 @@ Symfony 5.5.6
 
 `composer install`  
 
-`symfony serve`
+`symfony serve`  
 
+Php 7.3.11  
+Composer 2.5.5  
+Symfony 5.5.6  
