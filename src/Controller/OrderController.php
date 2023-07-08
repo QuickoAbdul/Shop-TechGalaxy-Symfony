@@ -31,7 +31,7 @@ class OrderController extends AbstractController
 
         if (!$this->getUser()->getAddresses()->getValues())
         {
-            return $this->redirectToRoute('app_address_add'); // Si l'utilisateur n'a pas d'addresse redirectione vers la page d'ajout address  
+            return $this->redirectToRoute('app_account_address_add'); // Si l'utilisateur n'a pas d'addresse redirectione vers la page d'ajout address  
         }
 
         $form = $this->createForm(OrderType::class, null, [
@@ -47,7 +47,7 @@ class OrderController extends AbstractController
     }
 
     /**
-     * @Route("/commande/recapitulatif", name="order_recap", methods=["POST"]) 
+     * @Route("/commande/recapitulatif", name="order_recap", methods="POST") 
      */
      public function add(Cart $cart, Request $request, RequestStack $stack)
     {
