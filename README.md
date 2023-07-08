@@ -17,4 +17,6 @@ This site was developed in Symfony and BootStrap, it is an e-commerce site that 
 Php 7.3.11  
 Composer 2.5.5  
 Symfony 5.5.6  
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSYhttps://www.youtube.com/watch?v=MmhhgWd_JD0&ab_channel=ShahzadAbdul-rahman)
+
+https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony/assets/90459692/4ffecfcc-f8f9-45ec-a7a0-5a6603bbbb79
+
