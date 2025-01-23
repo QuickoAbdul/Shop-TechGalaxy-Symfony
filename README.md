@@ -1,8 +1,6 @@
 # Shop TechGalaxy
 
-<p align="center">
   https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony/assets/90459692/4ffecfcc-f8f9-45ec-a7a0-5a6603bbbb79
-</p>
 
 ## Introduction
 This site was developed in Symfony and BootStrap, it is an e-commerce site that allows you to place an order with a store named TechGalaxy, for the management of the BackEnd was done with EasyAdmin
