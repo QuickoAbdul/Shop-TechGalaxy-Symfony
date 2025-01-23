@@ -1,7 +1,7 @@
 # Shop TechGalaxy
 
 ## Introduction
-This site was developed in Symfony and BootStrap, it is an e-commerce site that allows you to place an order with a store named TechGalaxy, for the management of the BackEnd this was done with EasyAdmin
+This site was developed in Symfony and BootStrap, it is an e-commerce site that allows you to place an order with a store named TechGalaxy, for the management of the BackEnd was done with EasyAdmin
 
 ## Installation
 * Download Project
