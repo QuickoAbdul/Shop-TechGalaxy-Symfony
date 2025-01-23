@@ -1,7 +1,7 @@
 # Shop TechGalaxy
 
 <p align="center">
-  <img src="https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony/assets/90459692/4ffecfcc-f8f9-45ec-a7a0-5a6603bbbb79" alt="GIF Description">
+  https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony/assets/90459692/4ffecfcc-f8f9-45ec-a7a0-5a6603bbbb79
 </p>
 
 ## Introduction
