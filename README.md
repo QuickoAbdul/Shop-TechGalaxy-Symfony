@@ -1,5 +1,9 @@
 # Shop TechGalaxy
 
+<p align="center">
+  <img src="https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony/assets/90459692/4ffecfcc-f8f9-45ec-a7a0-5a6603bbbb79" alt="GIF Description">
+</p>
+
 ## Introduction
 This site was developed in Symfony and BootStrap, it is an e-commerce site that allows you to place an order with a store named TechGalaxy, for the management of the BackEnd was done with EasyAdmin
 
@@ -18,5 +22,5 @@ Php 7.3.11
 Composer 2.5.5  
 Symfony 5.5.6  
 
-https://github.com/QuickoAbdul/Shop-TechGalaxy-Symfony/assets/90459692/4ffecfcc-f8f9-45ec-a7a0-5a6603bbbb79
+
 
